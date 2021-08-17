@@ -62,7 +62,7 @@ function App() {
         </div>
         <div className="circle">
           <div className="inner-circle"></div>
-          <div className="inner-text"></div>
+          <span className="inner-text">Emphasize</span>
         </div>
       </div>
     </>
