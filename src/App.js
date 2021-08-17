@@ -7,8 +7,14 @@ import { MDBContainer } from "mdbreact";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
+import {motion} from "framer-motion";
 
 function App() {
+  const spinTransition = {
+    loop: Infinity,
+    ease: "linear",
+    duration: 10,
+  }
   return (
     <>
       <div className="App">
@@ -35,37 +41,37 @@ function App() {
         </Navbar.Collapse>
 */}
         </Navbar>
-
-        <div style={{opacity:"0.3"}} className="vl" id="vl1"></div>
-        <div style={{opacity:"0.3"}} className="vl" id="vl2"></div>
-        <div style={{opacity:"0.3"}} className="vl" id="vl3"></div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <div style={{ color: "#F3EFE6", width: "50vw" }} className="head ">
-          <h1
-            style={{
-              width: "100%",
-              fontSize: "80px",
-              fontWeight: "bold",
-              lineHeight:"140%"
-            }}
-          >
-            The new standard <br />
-            of <span style={{ color: "#C02D33" }}>Design.</span>
-          </h1>
+        <div className="flex-container">
+          <div  className="vl" id="vl1">
+            <div style={{ color: "#F3EFE6", width: "50vw" }} className="head ">
+              <h1
+                style={{
+                  width: "100%",
+                  fontSize: "80px",
+                  fontWeight: "bold",
+                  lineHeight:"140%"
+                }}
+              >
+                The new standard <br />
+                of <span style={{ color: "#C02D33" }}>Design.</span>
+              </h1>
+            </div>
+            <div className="head2" style={{ color: "white", width: "50vw" }}>
+              <br />
+              <p style={{fontFamily: "IBM Plex Mono"}}>We are IxDA Vellore. We are sabisdubckudbsidu<br/>cbcdskubcse kbdsckubc dsbcdsucsbdudscbdsubcdsujbc</p>
+            </div>
+          </div>
+          <div  className="vl" id="vl2">
+            <motion.div 
+              className="circle"
+              animate={{ rotate:360 }}
+              transition ={spinTransition}>
+            </motion.div>
+              <span className="inner-text">Emphasize</span>
+          </div>
+          <div  className="vl" id="vl3"></div>
+          </div>
         </div>
-        <div className="head2" style={{ color: "white", width: "40%" }}>
-        <p style={{fontFamily: "IBM Plex Mono"}}>We are IxDA Vellore. We are sabisdubckudbsidu<br/>cbcdskubcse kbdsckubc dsbcdsucsbdudscbdsubcdsujbc</p>
-
-        </div>
-        <div className="circle">
-          <div className="inner-circle"></div>
-          <span className="inner-text">Emphasize</span>
-        </div>
-      </div>
     </>
   );
 }
