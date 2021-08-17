@@ -2,7 +2,6 @@
   height:100vh;
   overflow:hidden;
 }
-
 .app{
   background-color: #0f0f0f;
   bottom: 50vh;
@@ -14,64 +13,58 @@
 .navlogo{
   margin-left:70%;
 }
-
 .vl{
   height:100vh;
-  border-left: 0.1px solid #FFFFFF;
-  float:left;
+  border-left: 0.1px solid #ffffff33;
   z-index: -0500;
   position:relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #vl1{
   margin-left:5%;
+  flex-direction: column;
+  width: 50%;
 }
 #vl2{
-  margin-left:55%;
-}
-#vl3{
-  margin-left:30%;
+  width: 40%;
 }
 .head{
-  display: flex;
-  position:relative;
-  bottom:85vh;
   font-family: 'Anton', sans-serif;
   letter-spacing: 1px;
-  
-  left:5.1%;
 }
 .head2{
   font-size: 20px;
-  display: flex;
   position:relative;
-  bottom:85vh;
   color:#F7F7F7 !important;
-  left:5%;
 }
 .circle{
   position: absolute;
-  top: 30%;
-  left: 65.25%;
   border: 0.1px solid #F3EFE6;
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
-.inner-circle{
+.circle::before{
+  content: '';
   position: absolute;
   border-radius: 50%;
   background-color: #C02D33;
   width: 75px;
   height: 75px;
-  left: 112.5px;
+  left: 162.5px;
   top: -37.5px;
 }
 .inner-text{
   color: #C02D33;
   font-family: 'IBM Plex Mono';
   font-size: 24px;
+}
+.flex-container{
+  display: flex;
 }
