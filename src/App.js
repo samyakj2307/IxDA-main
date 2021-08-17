@@ -2,11 +2,11 @@ import "./App.css";
 import React, { useEffect, useState, useCallback } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Nav, Navbar } from "react-bootstrap";
-import a from "./components/img/a.svg";
-import b from "./components/img/b.svg";
-import c from "./components/img/c.svg";
-import d from "./components/img/d.svg";
-import e from "./components/img/e.svg";
+import a from "./components/img/e.svg";
+import b from "./components/img/a.svg";
+import c from "./components/img/b.svg";
+import d from "./components/img/c.svg";
+import e from "./components/img/d.svg";
 
 import arrow from "./components/img/arrow.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,7 +19,7 @@ function App() {
   const spinTransition = {
     loop: Infinity,
     ease: "linear",
-    duration: 10,
+    duration: 12,
   };
   const text = ["a","b","c","d","e"];
   const ctext = ["ca","cb","cc","cd","ce"];
@@ -39,7 +39,7 @@ function App() {
       change();
       setCall(false);
     }
-    const intervalID = setInterval(change, 1950);
+    const intervalID = setInterval(change, 2400);
     return () => clearInterval(intervalID);
   },[change,useState],);
   
