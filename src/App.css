@@ -69,3 +69,52 @@
 .flex-container{
   display: flex;
 }
+.a{
+  color: #c02d33 !important;
+}
+.b{
+  color: #f26539 !important;
+}
+.c{
+  color: #a6ce39 !important;;
+}
+.d{
+  color: #55c4c4 !important;;
+}
+.e{
+  color: #286099 !important;;
+}
+
+
+#a{
+  color: #c02d33 !important;
+}
+#b{
+  color: #f26539 !important;
+}
+#c{
+  color: #a6ce39 !important;;
+}
+#d{
+  color: #55c4c4 !important;;
+}
+#e{
+  color: #286099 !important;;
+}
+
+
+#ca::before{
+  background-color: #c02d33 !important;
+}
+#cb::before{
+  background-color: #f26539 !important;
+}
+#cc::before{
+  background-color: #a6ce39 !important;;
+}
+#cd::before{
+  background-color: #55c4c4 !important;;
+}
+#ce::before{
+  background-color: #286099 !important;;
+}
