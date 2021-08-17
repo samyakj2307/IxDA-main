@@ -44,16 +44,17 @@ function App() {
         <br />
         <br />
         <br />
-        <div style={{ color: "white", width: "50vw" }} className="head ">
+        <div style={{ color: "#F3EFE6", width: "50vw" }} className="head ">
           <h1
             style={{
               width: "100%",
               fontSize: "80px",
               fontWeight: "bold",
+              lineHeight:"140%"
             }}
           >
             The new standard <br />
-            of <span style={{ color: "red" }}>Design.</span>
+            of <span style={{ color: "#C02D33" }}>Design.</span>
           </h1>
         </div>
         <div className="head2" style={{ color: "white", width: "40%" }}>

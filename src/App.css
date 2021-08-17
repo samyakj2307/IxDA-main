@@ -37,14 +37,15 @@
   bottom:85vh;
   font-family: 'Anton', sans-serif;
   letter-spacing: 1px;
-  left:5%;
+  
+  left:5.1%;
 }
 .head2{
   font-size: 20px;
   display: flex;
   position:relative;
   bottom:85vh;
-  color:white !important;
+  color:#F7F7F7 !important;
   left:5%;
 }
 .circle{
