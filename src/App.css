@@ -1,10 +1,43 @@
 .app{
   background-color: #0f0f0f;
-  font-family:"DIN1451W01-Engschrift";
+  bottom: 50vh;
+  display: flex;
 }
 .navbar{
   background-color: #1F1F1F !important;
 }
 .navlogo{
   margin-left:70%;
+}
+.vl{
+  height:100vh;
+  border-left: 0.1px solid #FFFFFF;
+  float:left;
+  z-index: -0500;
+  position:relative;
+}
+#vl1{
+  margin-left:5%;
+}
+#vl2{
+  margin-left:55%;
+}
+#vl3{
+  margin-left:30%;
+}
+.head{
+  font-size: 120px;
+  display: flex;
+  position:relative;
+  bottom:75vh;
+
+  left:5%;
+}
+.head2{
+  font-size: 25px;
+  display: flex;
+  position:relative;
+  bottom:75vh;
+  color:white !important;
+  left:5%;
 }
