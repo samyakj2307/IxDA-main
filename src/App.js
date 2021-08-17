@@ -60,6 +60,10 @@ function App() {
         <p style={{fontFamily: "IBM Plex Mono"}}>We are IxDA Vellore. We are sabisdubckudbsidu<br/>cbcdskubcse kbdsckubc dsbcdsucsbdudscbdsubcdsujbc</p>
 
         </div>
+        <div className="circle">
+          <div className="inner-circle"></div>
+          <div className="inner-text"></div>
+        </div>
       </div>
     </>
   );
