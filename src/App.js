@@ -13,7 +13,7 @@ function App() {
     <>
       <div className="App">
         <Navbar className="navb" sticky="top" expand="sm" collapseOnSelect>
-          <Navbar.Brand>
+          <Navbar.Brand href="/">
             <img className="navlogo" src={logo} />{" "}
           </Navbar.Brand>
           {/*
