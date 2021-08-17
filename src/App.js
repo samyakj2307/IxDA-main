@@ -35,20 +35,31 @@ function App() {
         </Navbar.Collapse>
 */}
         </Navbar>
-        
-          
-            <div className="vl" id="vl1"></div>
-            <div className="vl" id="vl2"></div>
-            <div className="vl" id="vl3"></div>
-            <br/><br/><br/><br/><br/>
-            <div style={{ color: "white",width:"50%" }} className="head ">
-              <h1 style={{ width:"100%",fontFamily: "DIN 1451 Std", fontSize:"70px", fontWeight:"bold" }}>The new standard <br/>of <span style={{ color: "red" }}>Design.</span></h1>
-              </div>
 
+        <div style={{opacity:"0.3"}} className="vl" id="vl1"></div>
+        <div style={{opacity:"0.3"}} className="vl" id="vl2"></div>
+        <div style={{opacity:"0.3"}} className="vl" id="vl3"></div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div style={{ color: "white", width: "50%" }} className="head ">
+          <h1
+            style={{
+              width: "100%",
+              fontSize: "70px",
+              fontWeight: "bold",
+            }}
+          >
+            The new standard <br />
+            of <span style={{ color: "red" }}>Design.</span>
+          </h1>
+        </div>
+        <div className="head2" style={{ color: "white", width: "50%" }}>
+        <p style={{fontFamily: "IBM Plex Mono"}}>We are IxDA Vellore. We are sabisdubckudbsidu<br/>cbcdskubcse kbdsckubc dsbcdsucsbdudscbdsubcdsujbc</p>
 
-            
-          
-        
+        </div>
       </div>
     </>
   );
