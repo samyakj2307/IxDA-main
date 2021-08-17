@@ -44,7 +44,7 @@ function App() {
         <br />
         <br />
         <br />
-        <div style={{ color: "white", width: "50vw" }} className="head ">
+        <div style={{ color: "#F3EFE6", width: "50vw" }} className="head ">
           <h1
             style={{
               width: "100%",
