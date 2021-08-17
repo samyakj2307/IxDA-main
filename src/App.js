@@ -50,10 +50,11 @@ function App() {
               width: "100%",
               fontSize: "80px",
               fontWeight: "bold",
+              lineHeight:"140%"
             }}
           >
             The new standard <br />
-            of <span style={{ color: "red" }}>Design.</span>
+            of <span style={{ color: "#C02D33" }}>Design.</span>
           </h1>
         </div>
         <div className="head2" style={{ color: "white", width: "40%" }}>
