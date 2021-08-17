@@ -48,3 +48,30 @@
   color:#F7F7F7 !important;
   left:5%;
 }
+.circle{
+  position: absolute;
+  top: 30%;
+  left: 63.5%;
+  border: 0.1px solid #F3EFE6;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.inner-circle{
+  position: absolute;
+  border-radius: 50%;
+  background-color: #C02D33;
+  width: 75px;
+  height: 75px;
+  left: 112.5px;
+  top: -37.5px;
+}
+.inner-text{
+  color: #C02D33;
+  font-family: 'IBM Plex Mono';
+  font-size: 24px;
+}
