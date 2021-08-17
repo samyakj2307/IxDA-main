@@ -26,6 +26,7 @@
   margin-left:5%;
   flex-direction: column;
   width: 50%;
+  
 }
 #vl2{
   width: 40%;
@@ -63,7 +64,7 @@
 .inner-text{
   color: #C02D33;
   font-family: 'IBM Plex Mono';
-  font-size: 24px;
+  font-size: 44px;
 }
 .flex-container{
   display: flex;
