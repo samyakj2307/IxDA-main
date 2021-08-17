@@ -44,11 +44,11 @@ function App() {
         <br />
         <br />
         <br />
-        <div style={{ color: "white", width: "50%" }} className="head ">
+        <div style={{ color: "white", width: "50vw" }} className="head ">
           <h1
             style={{
               width: "100%",
-              fontSize: "70px",
+              fontSize: "80px",
               fontWeight: "bold",
             }}
           >
@@ -56,7 +56,7 @@ function App() {
             of <span style={{ color: "red" }}>Design.</span>
           </h1>
         </div>
-        <div className="head2" style={{ color: "white", width: "50%" }}>
+        <div className="head2" style={{ color: "white", width: "40%" }}>
         <p style={{fontFamily: "IBM Plex Mono"}}>We are IxDA Vellore. We are sabisdubckudbsidu<br/>cbcdskubcse kbdsckubc dsbcdsucsbdudscbdsubcdsujbc</p>
 
         </div>

@@ -26,18 +26,17 @@
   margin-left:30%;
 }
 .head{
-  font-size: 120px;
   display: flex;
   position:relative;
-  bottom:75vh;
+  bottom:85vh;
 
   left:5%;
 }
 .head2{
-  font-size: 25px;
+  font-size: 20px;
   display: flex;
   position:relative;
-  bottom:75vh;
+  bottom:85vh;
   color:white !important;
   left:5%;
 }
