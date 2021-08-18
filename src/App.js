@@ -111,10 +111,27 @@ function App() {
                 Changing the future of design.
               </p>
             </div>
-            <br/><br/><br/><br/>
+            <br/><br/><br/>
             <img className="arrowd" src={arrow} />
-
-            
+            <div style={{ color: "#F3EFE6", width: "50vw" }} className="head4">
+            <h1
+                style={{
+                  width: "100%",
+                  fontSize: "80px",
+                  fontWeight: "bold",
+                  lineHeight: "140%",
+                }}
+              >
+                <span style={{color: "#c02d33"}}>Who</span> are we?
+                </h1>
+                
+            </div>
+            <div className="head3" style={{ color: "#F3EFE6", width: "50vw" }}>
+              <br />
+              <p style={{ fontFamily: "IBM Plex Mono" }}>
+              We are a bunch of passionate and diligent students who believe in the capacity of being creative problem solvers . IxDA is a place where people use design to develop their creative potential and hone/enhance their problem solving skills.
+              </p>
+            </div>
           </div>
           <div className="vl" id="vl2">
             <motion.div
