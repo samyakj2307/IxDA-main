@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useEffect, useState, useCallback } from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import { Nav, Navbar } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import { teamData } from "./teamData";
 import Member from "./components/Member";
 import a from "./components/img/e.svg";
