@@ -146,26 +146,6 @@ function App() {
           </div>
           <div className="vl" id="vl3"></div>
         </div>
-        <div style={{ color: "#F3EFE6", width: "50vw", marginLeft: "5%" }} className="head4">
-            <h1
-                style={{
-                  width: "100%",
-                  fontSize: "80px",
-                  fontWeight: "bold",
-                  lineHeight: "140%",
-                }}
-              >
-                The <span style={{color: "#c02d33"}}>Team</span>
-                </h1>
-                <br />
-            </div>
-        <div className="team">
-          {details.sort(({id: previousID}, { id: currentID })=> previousID - currentID).map(data => (
-            <div className="member" key={`${data.id}`}>
-              <Member data={data} />
-            </div>
-          ))}
-        </div>
       </div>
     </>
   );
