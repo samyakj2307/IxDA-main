@@ -2,14 +2,13 @@ import "./App.css";
 import React, { useEffect, useState, useCallback } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Nav, Navbar } from "react-bootstrap";
-import details from './data';
+import data from './data';
 import Member from "./components/Member";
 import a from "./components/img/e.svg";
 import b from "./components/img/a.svg";
 import c from "./components/img/b.svg";
 import d from "./components/img/c.svg";
 import e from "./components/img/d.svg";
-
 import arrow from "./components/img/arrow.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -160,8 +159,9 @@ function App() {
                 <br />
             </div>
         <div className="team">
-          {details.sort(({id: previousID}, { id: currentID })=> previousID - currentID).map(data => (
+          {data.sort(({id: previousID}, { id: currentID })=> previousID - currentID).map(data => (
             <div className="member" key={`${data.id}`}>
+              {console.log(data)}
               <Member data={data} />
             </div>
           ))}

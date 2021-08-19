@@ -1,9 +1,15 @@
-[
+
+
+import a from "./components/img/1.png";
+
+
+
+const data=[
     
     {
         "id": 1, 
         "name": "Nisheta Gupta",
-        "image": "./components/img/1.png",
+        "image": {a},
         "designation": "Chairperson",
         "skill": "UX Designer | Graphic Enthusiast",
         "desc": "Nisheta is a motivated Product Designer. She loves cooking, sushi and her dog, Milo.",
@@ -14,80 +20,81 @@
         "id": 2, 
         "name": "Samvit Swaminathan",
         "image":  "./components/img/2.png",
-        "designation": "d2",
-        "skill": "xyz | xyz",
+        "designation": "Vice-Chairperson",
+        "skill": "Product Designer | Traveler",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
-        "linkedin": "L2",
-        "instagram": "I2"
+        "linkedin": "https://in.linkedin.com/in/samvits",
+        "instagram": "https://instagram.com/samvit_20?utm_medium=copy_link"
     },
     {
         "id": 3, 
-        "name": "name 3",
+        "name": "Param Sharma",
         "image":  "./components/img/3.png",
-        "designation": "d3",
-        "skill": "xyz | xyz",
+        "designation": "Managing Director",
+        "skill": "UX Designer | Photographer",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
         "linkedin": "L3",
         "instagram": "I3"
     },
     {
         "id": 4, 
-        "name": "name 4",
+        "name": "Febin Francis",
         "image":  "./components/img/4.png",
-        "designation": "d4",
-        "skill": "xyz | xyz",
+        "designation": "Motion Media Director",
+        "skill": "Video Editor | UX Designer",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
         "linkedin": "L4",
         "instagram": "I4"
     },
     {
         "id": 5, 
-        "name": "name 4",
+        "name": "Kaustubh Agarwal",
         "image":  "./components/img/5.png",
-        "designation": "d4",
-        "skill": "xyz | xyz",
+        "designation": "Interaction Design Lead",
+        "skill": "Motion Designer",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
         "linkedin": "L4",
         "instagram": "I4"
     },
     {
         "id": 6, 
-        "name": "name 4",
-        "image":  "./components/img/6.png",
-        "designation": "d4",
-        "skill": "xyz | xyz",
+        "name": "Samyak Jain",
+        "image":  "./components/img/6.jpg",
+        "designation": "App Development Lead",
+        "skill": "App Developer | Web Developer",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
         "linkedin": "L4",
         "instagram": "I4"
     },
     {
         "id": 7, 
-        "name": "name 4",
+        "name": "Ripunjay Narula",
         "image":  "./components/img/7.png",
-        "designation": "d4",
-        "skill": "xyz | xyz",
+        "designation": "Web Development Lead",
+        "skill": "Web Developer | Graphic Enthusiast",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
         "linkedin": "L4",
         "instagram": "I4"
     },
     {
         "id": 8, 
-        "name": "name 4",
+        "name": "Eshana Mohan",
         "image":  "./components/img/8.png",
-        "designation": "d4",
-        "skill": "xyz | xyz",
+        "designation": "Content Director",
+        "skill": "Web Developer | Designer",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
         "linkedin": "L4",
         "instagram": "I4"
     },
     {
         "id": 9, 
-        "name": "name 4",
+        "name": "Grihit Budhiraja",
         "image":  "./components/img/9.png",
-        "designation": "d4",
+        "designation": "Treasurer",
         "skill": "xyz | xyz",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
         "linkedin": "L4",
         "instagram": "I4"
     }
 ]
+export default data;
