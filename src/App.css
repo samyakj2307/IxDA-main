@@ -1,4 +1,6 @@
-
+.App{
+  position: relative;
+}
 .navbar {
   background-color: #1f1f1f !important;
   z-index: 100;
@@ -7,11 +9,30 @@
 .navlogo {
   margin-left: 70%;
 }
+.line{
+  position: absolute;
+  border-left: 1px solid rgba(255, 255, 255, 0.226);
+  height: 100%;
+  width: 1px;
+}
+.l1{
+  left: 5%;
+}
+.l2{
+  left: 33.33%;
+}
+.l3{
+  right: 33.33%;
+}
+.l4{
+  right: 5%;
+}
 .vl {
   position: relative;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  align-items: flex-start;
   
 }
 #vl1 {
@@ -26,7 +47,6 @@
   margin-top: 150px;
   font-family: "Anton", sans-serif;
   letter-spacing: 1px;
-  margin-left: 10px;
 }
 .head2 {
   font-size: 20px;
@@ -80,7 +100,8 @@
 .team {
   display: flex;
   margin-left: 5%;
-  justify-content: flex-start;
+  margin-right: 5%;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
