@@ -3,7 +3,7 @@ import React, { useEffect, useState, useCallback } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Nav, Navbar } from "react-bootstrap";
 import details from './data';
-import { Member} from "./components/Member";
+import  Member from "./components/Member";
 import a from "./components/img/e.svg";
 import b from "./components/img/a.svg";
 import c from "./components/img/b.svg";
@@ -77,7 +77,6 @@ function App() {
         <Navbar.Toggle className="coloring" />
         <Navbar.Collapse>
           <Nav>
-
             <NavDropdown title="Products">
               <NavDropdown.Item href="#products/tea">Tea</NavDropdown.Item>
               <NavDropdown.Item href="#products/coffee">Coffee</NavDropdown.Item>

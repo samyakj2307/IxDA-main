@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles.css";
 
-export function Member({data}) {
+function Member({data}) {
     return (
         <div>
             <div className="img-name">
@@ -28,3 +28,4 @@ export function Member({data}) {
     )
 }
 
+export default Member
