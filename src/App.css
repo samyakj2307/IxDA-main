@@ -11,7 +11,7 @@
 }
 .line{
   position: absolute;
-  border-left: 1px solid rgba(255, 255, 255, 0.226);
+  border-left: 1px solid rgba(255, 255, 255, 0.123);
   height: 100%;
   width: 1px;
   z-index: -2;
@@ -38,7 +38,7 @@
 }
 #vl1 {
   margin-left: 5%;
-  width: 50%;
+  width: 60%;
 }
 #vl2 {
   width: 40%;
@@ -59,7 +59,6 @@
   font-size: 20px;
   /* position:relative; */
   color: #f7f7f7 !important;
-  margin-left: 10px;
 }
 .head4 {
   font-family: "Anton", sans-serif;
