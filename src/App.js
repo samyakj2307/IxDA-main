@@ -38,7 +38,7 @@ function App() {
       change();
       setCall(false);
     }
-    const intervalID = setInterval(change, 2400);
+    const intervalID = setInterval(change, 2355);
     return () => clearInterval(intervalID);
   }, [change, useState]);
 
@@ -86,13 +86,17 @@ function App() {
         </Navbar.Collapse>
 */}
         </Navbar>
+        <div className="line l1"></div>
+        <div className="line l2"></div>
+        <div className="line l3"></div>
+        <div className="line l4"></div>
         <div className="flex-container">
           <div className="vl" id="vl1">
             <div style={{ color: "#F3EFE6" }} className="head">
               <h1
                 style={{
                   width: "100%",
-                  fontSize: "80px",
+                  fontSize: "100px",
                   fontWeight: "bold",
                   lineHeight: "140%",
                 }}
