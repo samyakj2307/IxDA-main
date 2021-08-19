@@ -1,6 +1,5 @@
 import React from 'react'
 import "../styles.css";
-import "../components/img/nish.png"
 
 export function Member({data}) {
     return (
