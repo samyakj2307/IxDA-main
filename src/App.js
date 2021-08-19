@@ -9,8 +9,6 @@ import b from "./components/img/a.svg";
 import c from "./components/img/b.svg";
 import d from "./components/img/c.svg";
 import e from "./components/img/d.svg";
-
-import arrow from "./components/img/arrow.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
@@ -109,7 +107,12 @@ function App() {
             <br />
             <br />
             <br />
-            <img className="arrowd" src={arrow} alt="arrow" />
+            <svg className="arrowd" width="16" height="121" viewBox="0 0 16 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.2929 120.707C7.68342 121.098 8.31659 121.098 8.70711 120.707L15.0711 114.343C15.4616 113.953 15.4616 113.319 15.0711 112.929C14.6805 112.538 14.0474 112.538 13.6569 112.929L8.00001 118.586L2.34315 112.929C1.95263 112.538 1.31946 112.538 0.928937 112.929C0.538413 113.319 0.538413 113.953 0.928937 114.343L7.2929 120.707ZM7 4.37114e-08L7.00001 120L9.00001 120L9 -4.37114e-08L7 4.37114e-08Z" fill="#C02D33"/>
+            </svg>
+
+            <br />
+            <br />
           </div>
           <div className="vl" id="vl2">
             <motion.div
@@ -146,7 +149,7 @@ function App() {
             <br />
             <p style={{ fontFamily: "IBM Plex Mono" }}>
               We are a bunch of passionate and diligent students who believe in
-              the capacity of being creative problem solvers . IxDA is a place
+              the capacity of being creative problem solvers. IxDA is a place
               where people use design to develop their creative potential and
               hone/enhance their problem solving skills.
             </p>
@@ -163,6 +166,7 @@ function App() {
               fontSize: "80px",
               fontWeight: "bold",
               lineHeight: "140%",
+              marginTop: "350px"
             }}
           >
             The <span style={{ color: "#c02d33" }}>Team</span>
