@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles.css";
 
+
 function Member({data}) {
     return (
         <div>
