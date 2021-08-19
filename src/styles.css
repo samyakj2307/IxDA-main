@@ -1,0 +1,32 @@
+.img-name img{
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.img-name p{
+    display: inline-block;
+    position: absolute;
+    margin-left: 25px;
+    color: #F3EFE6;
+    font-size: 24px;
+    font-family: 'Anton';
+    max-width: 220px;
+    top: 40px;
+}
+p{
+    margin: 5px 0px;
+}
+.designation{
+    margin-top: 15px;
+    color: #C02D33;
+    font-size: 18px;
+    font-family: 'IBM Plex Mono';
+    font-weight: bold;
+}
+.skill{
+    color: #F3EFE6;
+    font-size: 13px;
+    font-family: 'IBM Plex Mono';
+    margin-bottom: 5px;
+}

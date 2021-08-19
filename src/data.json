@@ -1,0 +1,43 @@
+[
+    
+    {
+        "id": 1, 
+        "name": "Nisheta Gupta",
+        "image": "image 1",
+        "designation": "Chairperson",
+        "skill": "UX Designer | Graphic Enthusiast",
+        "desc": "Nisheta is a motivated Product Designer. She loves cooking, sushi and her dog, Milo.",
+        "linkedin": "L1",
+        "instagram": "I1"
+    },
+    {
+        "id": 2, 
+        "name": "Samvit Swaminathan",
+        "image": "image 2",
+        "designation": "d2",
+        "skill": "xyz | xyz",
+        "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
+        "linkedin": "L2",
+        "instagram": "I2"
+    },
+    {
+        "id": 3, 
+        "name": "name 3",
+        "image": "image 3",
+        "designation": "d3",
+        "skill": "xyz | xyz",
+        "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
+        "linkedin": "L3",
+        "instagram": "I3"
+    },
+    {
+        "id": 4, 
+        "name": "name 4",
+        "image": "image 4",
+        "designation": "d4",
+        "skill": "xyz | xyz",
+        "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
+        "linkedin": "L4",
+        "instagram": "I4"
+    }
+]
