@@ -2,6 +2,7 @@ import React from 'react'
 import "../styles.css";
 
 function Member({data}) {
+    console.log(data.image)
     return (
         <div>
             <div className="img-name">

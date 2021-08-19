@@ -3,6 +3,7 @@ import React, { useEffect, useState, useCallback } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Nav, Navbar } from "react-bootstrap";
 import details from './data';
+import {teamData} from './teamData';
 import Member from "./components/Member";
 import a from "./components/img/e.svg";
 import b from "./components/img/a.svg";
@@ -159,7 +160,7 @@ function App() {
                 <br />
             </div>
         <div className="team">
-          {details.sort(({id: previousID}, { id: currentID })=> previousID - currentID).map(data => (
+          {teamData.sort(({id: previousID}, { id: currentID })=> previousID - currentID).map(data => (
             <div className="member" key={`${data.id}`}>
               <Member data={data} />
             </div>
