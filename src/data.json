@@ -3,7 +3,7 @@
     {
         "id": 1, 
         "name": "Nisheta Gupta",
-        "image": "image 1",
+        "image": "./components/img/1.png",
         "designation": "Chairperson",
         "skill": "UX Designer | Graphic Enthusiast",
         "desc": "Nisheta is a motivated Product Designer. She loves cooking, sushi and her dog, Milo.",
@@ -13,7 +13,7 @@
     {
         "id": 2, 
         "name": "Samvit Swaminathan",
-        "image": "image 2",
+        "image":  "./components/img/2.png",
         "designation": "d2",
         "skill": "xyz | xyz",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
@@ -23,7 +23,7 @@
     {
         "id": 3, 
         "name": "name 3",
-        "image": "image 3",
+        "image":  "./components/img/3.png",
         "designation": "d3",
         "skill": "xyz | xyz",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
@@ -33,7 +33,57 @@
     {
         "id": 4, 
         "name": "name 4",
-        "image": "image 4",
+        "image":  "./components/img/4.png",
+        "designation": "d4",
+        "skill": "xyz | xyz",
+        "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
+        "linkedin": "L4",
+        "instagram": "I4"
+    },
+    {
+        "id": 5, 
+        "name": "name 4",
+        "image":  "./components/img/5.png",
+        "designation": "d4",
+        "skill": "xyz | xyz",
+        "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
+        "linkedin": "L4",
+        "instagram": "I4"
+    },
+    {
+        "id": 6, 
+        "name": "name 4",
+        "image":  "./components/img/6.png",
+        "designation": "d4",
+        "skill": "xyz | xyz",
+        "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
+        "linkedin": "L4",
+        "instagram": "I4"
+    },
+    {
+        "id": 7, 
+        "name": "name 4",
+        "image":  "./components/img/7.png",
+        "designation": "d4",
+        "skill": "xyz | xyz",
+        "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
+        "linkedin": "L4",
+        "instagram": "I4"
+    },
+    {
+        "id": 8, 
+        "name": "name 4",
+        "image":  "./components/img/8.png",
+        "designation": "d4",
+        "skill": "xyz | xyz",
+        "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
+        "linkedin": "L4",
+        "instagram": "I4"
+    },
+    {
+        "id": 9, 
+        "name": "name 4",
+        "image":  "./components/img/9.png",
         "designation": "d4",
         "skill": "xyz | xyz",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
