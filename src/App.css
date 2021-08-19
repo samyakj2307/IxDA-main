@@ -1,15 +1,12 @@
 .App{
   height:300vh;
-  overflow: hidden;
   
 }
-.app{
-  background-color: #0f0f0f;
-  bottom: 50vh;
-  display: flex;
-}
+
 .navbar{
   background-color: #1F1F1F !important;
+  z-index: 100;
+  height: 8vh;
 }
 .navlogo{
   margin-left:70%;
