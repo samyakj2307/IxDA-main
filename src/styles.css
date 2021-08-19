@@ -8,6 +8,7 @@
     font-family: 'IBM Plex Mono';
     max-width: 80px;
     text-align: center;
+    border: 2px solid #C02D33;
 }
 .img-name p{
     display: inline-block;
