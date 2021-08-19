@@ -2,13 +2,12 @@ import "./App.css";
 import React, { useEffect, useState, useCallback } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Nav, Navbar } from "react-bootstrap";
-import data from './data';
-import Member from "./components/Member";
 import a from "./components/img/e.svg";
 import b from "./components/img/a.svg";
 import c from "./components/img/b.svg";
 import d from "./components/img/c.svg";
 import e from "./components/img/d.svg";
+
 import arrow from "./components/img/arrow.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -144,27 +143,6 @@ function App() {
             <span className="inner-text" id={text[counter]}>{i}</span>
           </div>
           <div className="vl" id="vl3"></div>
-        </div>
-        <div style={{ color: "#F3EFE6", width: "50vw", marginLeft: "5%" }} className="head4">
-            <h1
-                style={{
-                  width: "100%",
-                  fontSize: "80px",
-                  fontWeight: "bold",
-                  lineHeight: "140%",
-                }}
-              >
-                The <span style={{color: "#c02d33"}}>Team</span>
-                </h1>
-                <br />
-            </div>
-        <div className="team">
-          {data.sort(({id: previousID}, { id: currentID })=> previousID - currentID).map(data => (
-            <div className="member" key={`${data.id}`}>
-              {console.log(data)}
-              <Member data={data} />
-            </div>
-          ))}
         </div>
       </div>
     </>

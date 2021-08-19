@@ -1,15 +1,9 @@
-
-
-import a from "./components/img/1.png";
-
-
-
-const data=[
+[
     
     {
         "id": 1, 
         "name": "Nisheta Gupta",
-        "image": {a},
+        "image": "./components/img/1.png",
         "designation": "Chairperson",
         "skill": "UX Designer | Graphic Enthusiast",
         "desc": "Nisheta is a motivated Product Designer. She loves cooking, sushi and her dog, Milo.",
@@ -81,7 +75,7 @@ const data=[
         "name": "Eshana Mohan",
         "image":  "./components/img/8.png",
         "designation": "Content Director",
-        "skill": "Web Developer | Designer",
+        "skill": "xyz | xyz",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
         "linkedin": "L4",
         "instagram": "I4"
@@ -91,10 +85,9 @@ const data=[
         "name": "Grihit Budhiraja",
         "image":  "./components/img/9.png",
         "designation": "Treasurer",
-        "skill": "xyz | xyz",
+        "skill": "Web Developer | Designer",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
         "linkedin": "L4",
         "instagram": "I4"
     }
 ]
-export default data;
