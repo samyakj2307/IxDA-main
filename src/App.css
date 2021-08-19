@@ -1,5 +1,4 @@
 .App{
-  height:300vh;
   
 }
 
@@ -12,7 +11,6 @@
   margin-left:70%;
 }
 .vl{
-  height:200vh;
   position:relative;
   display: flex;
   align-items: center;
@@ -35,22 +33,22 @@
 }
 .head2{
   font-size: 20px;
-  position:relative;
+  /* position:relative; */
   color:#F7F7F7 !important;
   margin-left: 10px;
   
 }
 .head3{
   font-size: 20px;
-  position:relative;
+  /* position:relative; */
   color:#F7F7F7 !important;
   margin-left: 10px;
   
 }
 .head4{
   font-family: 'Anton', sans-serif;
-  letter-spacing: 1px;
-  margin-left: 10px;
+  
+  /* margin-left: 10px; */
 }
 .circle{
   position: absolute;
@@ -86,17 +84,9 @@
 .team{
   display: flex;
   margin-left: 5%;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
   
-}
-.member{
-  width: 25%;
-  background-color: #1F1F1F;
-  border-radius: 8px;
-  margin: 4% 8.333% 0px 0px ;
-  padding: 20px;
-  position: relative;
 }
 .arrowd{
   margin-bottom: 200px;
@@ -149,4 +139,38 @@
 }
 #ce::before{
   background-color: #55c4c4 !important;;
+}
+
+.who-are-we-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 5%;
+}
+
+.who-are-we-container>.head3{
+  width: 50%;
+}
+
+@media only screen and (max-width:1000px){
+  .flex-container{
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+  }
+
+  #vl2{
+    display: none;
+  }
+
+  .who-are-we-container{
+    display: flex;
+    width: 100%;
+  }
+
+  .who-are-we-container>.head3{
+    width: 90%;
+  }
+  
 }

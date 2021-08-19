@@ -1,3 +1,19 @@
+.member{
+    width:350px;
+    height: 350px;
+    background-color: #1F1F1F;
+    border-radius: 8px;
+    margin: 2%;
+    padding: 40px;
+    position: relative;
+  }
+
+.img-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .img-name img{
     overflow: hidden;
     width: 80px;
@@ -12,7 +28,6 @@
 }
 .img-name p{
     display: inline-block;
-    position: absolute;
     margin-left: 25px;
     color: #F3EFE6;
     font-size: 24px;
@@ -40,4 +55,11 @@
     font-family: 'IBM Plex Mono';
     margin-bottom: 5px;
     line-height: 18px;
+}
+
+
+@media only screen and (max-width:1000px){
+    .member{
+        margin: 20px;
+    }
 }

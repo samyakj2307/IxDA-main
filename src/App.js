@@ -2,8 +2,7 @@ import "./App.css";
 import React, { useEffect, useState, useCallback } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import { Nav, Navbar } from "react-bootstrap";
-import details from './data';
-import {teamData} from './teamData';
+import { teamData } from "./teamData";
 import Member from "./components/Member";
 import a from "./components/img/e.svg";
 import b from "./components/img/a.svg";
@@ -24,28 +23,27 @@ function App() {
     ease: "linear",
     duration: 12,
   };
-  const text = ["a","b","c","d","e"];
-  const ctext = ["ca","cb","cc","cd","ce"];
-  const itext = [a,b,c,d,e];
+  const text = ["a", "b", "c", "d", "e"];
+  const ctext = ["ca", "cb", "cc", "cd", "ce"];
+  const itext = [a, b, c, d, e];
   const circ = ["Empathise", "Define", "Ideate", "Prototype", "Test"];
 
-  const [counter,setCounter]=useState(0);
-  const [i,seti]=useState(circ[counter]);
-  const [x,setx]=useState(text[counter]);
-  const [y,sety]=useState(ctext[counter]);
-  const [z,setz]=useState(itext[counter]);
-  const [call,setCall]=useState(true);
+  const [counter, setCounter] = useState(0);
+  const [i, seti] = useState(circ[counter]);
+  const [x, setx] = useState(text[counter]);
+  const [y, sety] = useState(ctext[counter]);
+  const [z, setz] = useState(itext[counter]);
+  const [call, setCall] = useState(true);
 
-  
   useEffect(() => {
-    if(call){
+    if (call) {
       change();
       setCall(false);
     }
     const intervalID = setInterval(change, 2400);
     return () => clearInterval(intervalID);
-  },[change,useState],);
-  
+  }, [change, useState]);
+
   // componentDidMount() {
   //  const interval = setInterval(change(), 2000);
   // };
@@ -53,26 +51,24 @@ function App() {
   //   clearInterval(interval);
   // };
 
-  function change(){
+  function change() {
     console.log(text[counter]);
-    setCounter(counter+1);
-    if(counter==circ.length-1){
+    setCounter(counter + 1);
+    if (counter == circ.length - 1) {
       setCounter(0);
     }
-    
+
     seti(circ[counter]);
     setx(text[counter]);
     sety(ctext[counter]);
     setz(itext[counter]);
-
-   
   }
   return (
     <>
       <div className="App">
         <Navbar className="navb" sticky="top" expand="sm" collapseOnSelect>
           <Navbar.Brand href="/">
-            <img className="navlogo" src={itext[counter]} alt="logo"/>{" "}
+            <img className="navlogo" src={itext[counter]} alt="logo" />{" "}
           </Navbar.Brand>
           {/*
         <Navbar.Toggle className="coloring" />
@@ -94,7 +90,7 @@ function App() {
         </Navbar>
         <div className="flex-container">
           <div className="vl" id="vl1">
-            <div style={{ color: "#F3EFE6", width: "50vw" }} className="head ">
+            <div style={{ color: "#F3EFE6" }} className="head">
               <h1
                 style={{
                   width: "100%",
@@ -104,36 +100,16 @@ function App() {
                 }}
               >
                 The new standard <br />
-                of <span className={text[counter]} >Design.</span>
+                of <span className={text[counter]}>Design.</span>
               </h1>
-            </div>
-            <div className="head2" style={{ color: "#F3EFE6", width: "50vw" }}>
-              <br />
-              <p style={{ fontFamily: "IBM Plex Mono" }}>
+              <p style={{ fontFamily: "IBM Plex Mono", color: "#F3EFE6" }}>
                 Changing the future of design.
               </p>
             </div>
-            <br/><br/><br/>
+            <br />
+            <br />
+            <br />
             <img className="arrowd" src={arrow} alt="arrow" />
-            <div style={{ color: "#F3EFE6", width: "50vw" }} className="head4">
-            <h1
-                style={{
-                  width: "100%",
-                  fontSize: "80px",
-                  fontWeight: "bold",
-                  lineHeight: "140%",
-                }}
-              >
-                <span style={{color: "#c02d33"}}>Who</span> are we?
-                </h1>
-                
-            </div>
-            <div className="head3" style={{ color: "#F3EFE6", width: "50vw" }}>
-              <br />
-              <p style={{ fontFamily: "IBM Plex Mono" }}>
-              We are a bunch of passionate and diligent students who believe in the capacity of being creative problem solvers . IxDA is a place where people use design to develop their creative potential and hone/enhance their problem solving skills.
-              </p>
-            </div>
           </div>
           <div className="vl" id="vl2">
             <motion.div
@@ -142,29 +118,65 @@ function App() {
               animate={{ rotate: 360 }}
               transition={spinTransition}
             ></motion.div>
-            <span className="inner-text" id={text[counter]}>{i}</span>
+            <span className="inner-text" id={text[counter]}>
+              {i}
+            </span>
           </div>
-          <div className="vl" id="vl3"></div>
+          {/* <div className="vl" id="vl3"></div> */}
         </div>
-        <div style={{ color: "#F3EFE6", width: "50vw", marginLeft: "5%" }} className="head4">
-            <h1
-                style={{
-                  width: "100%",
-                  fontSize: "80px",
-                  fontWeight: "bold",
-                  lineHeight: "140%",
-                }}
-              >
-                The <span style={{color: "#c02d33"}}>Team</span>
-                </h1>
-                <br />
-            </div>
+
+        <div className="who-are-we-container">
+          <h1
+            style={{
+              fontFamily: "'Anton', sans-serif",
+              color: "#F3EFE6",
+              width: "100%",
+              fontSize: "80px",
+              fontWeight: "bold",
+              lineHeight: "140%",
+              letterSpacing: "1px",
+              outline:"none",
+              display:"inline",
+            }}
+          >
+            <span style={{ color: "#c02d33",display: "inline" }}>Who</span> are we?
+          </h1>
+
+          <div className="head3" style={{ color: "#F3EFE6" }}>
+            <br />
+            <p style={{ fontFamily: "IBM Plex Mono" }}>
+              We are a bunch of passionate and diligent students who believe in
+              the capacity of being creative problem solvers . IxDA is a place
+              where people use design to develop their creative potential and
+              hone/enhance their problem solving skills.
+            </p>
+          </div>
+        </div>
+
+        <div
+          style={{ color: "#F3EFE6", width: "50vw", marginLeft: "5%" }}
+          className="head4"
+        >
+          <h1
+            style={{
+              width: "100%",
+              fontSize: "80px",
+              fontWeight: "bold",
+              lineHeight: "140%",
+            }}
+          >
+            The <span style={{ color: "#c02d33" }}>Team</span>
+          </h1>
+          <br />
+        </div>
         <div className="team">
-          {teamData.sort(({id: previousID}, { id: currentID })=> previousID - currentID).map(data => (
-            <div className="member" key={`${data.id}`}>
-              <Member data={data} />
-            </div>
-          ))}
+          {teamData
+            .sort(
+              ({ id: previousID }, { id: currentID }) => previousID - currentID
+            )
+            .map((data) => (
+              <Member data={data} key={`${data.id}`} />
+            ))}
         </div>
       </div>
     </>
