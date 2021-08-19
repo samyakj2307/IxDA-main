@@ -2,7 +2,7 @@ import React from "react";
 import "../styles.css";
 
 function Member({ data }) {
-  console.log(data.image);
+ 
   return (
     <div className="member">
       <div className="img-name">
@@ -14,7 +14,7 @@ function Member({ data }) {
       <p className="desc">{data.desc}</p>
       <br />
       <div className="social-link-container">
-        <a href={data.linkedin}>
+        <a href={data.linkedin} target="_blank">
           <svg
             width="24"
             height="24"
@@ -29,7 +29,7 @@ function Member({ data }) {
           </svg>
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href={data.instagram}>
+        <a href={data.instagram} target="_blank">
           <svg
             className="insta"
             width="24"

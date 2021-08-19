@@ -14,6 +14,7 @@
   border-left: 1px solid rgba(255, 255, 255, 0.226);
   height: 100%;
   width: 1px;
+  z-index: -2;
 }
 .l1{
   left: 5%;
@@ -104,6 +105,45 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.footer{
+  background-color: #1F1F1F;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 500;
+  font-family: "IBM Plex Mono";
+  color: #F3EFE6;
+  height: 14vh;
+}
+
+.socialf{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+.textf{
+  /* Made with ❤ by IxDA-Vellore️ */
+
+position: static;
+left: 0px;
+top: 0px;
+font-family: IBM Plex Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+
+letter-spacing: 0.04em;
+
+color: #F3EFE6;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px;
+
+}
 
 .arrowd {
   display: flex;
@@ -169,6 +209,7 @@
 .who-are-we-container > .head3 {
   width: 50%;
 }
+
 
 @media only screen and (max-width: 1000px) {
   .flex-container {
