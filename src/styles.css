@@ -3,6 +3,11 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    color: #F3EFE6;
+    font-size: 13px;
+    font-family: 'IBM Plex Mono';
+    max-width: 80px;
+    text-align: center;
 }
 .img-name p{
     display: inline-block;
@@ -14,19 +19,24 @@
     max-width: 220px;
     top: 40px;
 }
-p{
-    margin: 5px 0px;
-}
 .designation{
     margin-top: 15px;
     color: #C02D33;
     font-size: 18px;
     font-family: 'IBM Plex Mono';
     font-weight: bold;
+    margin-bottom: 5px;
 }
 .skill{
     color: #F3EFE6;
     font-size: 13px;
     font-family: 'IBM Plex Mono';
     margin-bottom: 5px;
+}
+.desc{
+    color: #f3efe69a;
+    font-size: 13px;
+    font-family: 'IBM Plex Mono';
+    margin-bottom: 5px;
+    line-height: 18px;
 }

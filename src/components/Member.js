@@ -10,6 +10,7 @@ function Member({data}) {
             </div>
             <p className="designation">{data.designation}</p>
             <p className="skill">{data.skill}</p>
+            <p className="desc">{data.desc}</p>
         </div>
     )
 }
