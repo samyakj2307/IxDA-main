@@ -104,7 +104,7 @@ function App() {
                 The new standard <br />
                 of <span className={text[counter]}>Design.</span>
               </h1>
-              <p style={{ fontFamily: "IBM Plex Mono", color: "#F3EFE6" }}>
+              <p style={{ fontFamily: "IBM Plex Mono", color: "#F3EFE6", fontSize: "18px" }}>
                 Changing the future of design.
               </p>
             </div>
