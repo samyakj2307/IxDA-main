@@ -71,7 +71,7 @@ function App() {
       <div className="App">
         <Navbar className="navb" sticky="top" expand="sm" collapseOnSelect>
           <Navbar.Brand href="/">
-            <img className="navlogo" src={itext[counter]} />{" "}
+            <img className="navlogo" src={itext[counter]} alt="logo"/>{" "}
           </Navbar.Brand>
           {/*
         <Navbar.Toggle className="coloring" />
@@ -114,7 +114,7 @@ function App() {
               </p>
             </div>
             <br/><br/><br/>
-            <img className="arrowd" src={arrow} />
+            <img className="arrowd" src={arrow} alt="arrow" />
             <div style={{ color: "#F3EFE6", width: "50vw" }} className="head4">
             <h1
                 style={{
