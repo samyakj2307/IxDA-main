@@ -96,7 +96,7 @@ function App() {
               <h1
                 style={{
                   width: "100%",
-                  fontSize: "100px",
+                  fontSize: "80px",
                   fontWeight: "bold",
                   lineHeight: "140%",
                 }}
