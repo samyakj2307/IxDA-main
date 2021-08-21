@@ -48,6 +48,13 @@
   font-family: "Anton", sans-serif;
   letter-spacing: 1px;
 }
+.new-standard-design{
+  width: 100%;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 140%;
+  font-family: "Anton", "sans-serif";
+}
 .head2 {
   font-size: 20px;
   /* position:relative; */
@@ -162,18 +169,37 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 5%;
+  margin-left: 5%;
+}
+.who-are-we-container>h1{
+  font-family: 'Anton', 'sans-serif';
+  color: #F3EFE6;
+  width: 100%;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 140%;
+  letter-spacing: 1px;
+  outline:none;
+  display:inline;
+}
+.head4>h1{
+  width: 100%;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 140%;
+  margin-top: 350px;
 }
 
 .who-are-we-container > .head3 {
   width: 50%;
 }
 
+
 @media only screen and (max-width: 1000px) {
   .flex-container {
     display: flex;
     width: 100%;
-    justify-content: center;
+    
   }
 
   #vl2 {
@@ -182,7 +208,7 @@
 
   .who-are-we-container {
     display: flex;
-    width: 100%;
+    
   }
 
   .who-are-we-container > .head3 {
@@ -192,4 +218,26 @@
   .team{
     justify-content: center;
   }
+  .new-standard-design{
+    font-size: 42px;
+  }
+  .line{
+    display: none;
+  }
+  .arrowd{
+    margin-left: 50%;
+  }
+  .navlogo{
+    margin-left: 10%;
+  }
+  #vl1{
+    width: 100%;
+  }
+  .who-are-we-container>h1{
+    font-size: 42px;
+  }
+  .head4>h1{
+    font-size: 42px;
+  }
 }
+

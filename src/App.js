@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useEffect, useState, useCallback } from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import { Navbar } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { teamData } from "./teamData";
 import Member from "./components/Member";
 import a from "./components/img/e.svg";
@@ -68,23 +68,16 @@ function App() {
           <Navbar.Brand href="/">
             <img className="navlogo" src={itext[counter]} alt="logo" />{" "}
           </Navbar.Brand>
-          {/*
+          {/*}
         <Navbar.Toggle className="coloring" />
         <Navbar.Collapse>
           <Nav>
-            <NavDropdown title="Products">
-              <NavDropdown.Item href="#products/tea">Tea</NavDropdown.Item>
-              <NavDropdown.Item href="#products/coffee">Coffee</NavDropdown.Item>
-              <NavDropdown.Item href="#products/chocolate">Chocolate</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#products/promo">Promo</NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#blog">Blog</Nav.Link>
-            <Nav.Link href="#about-us">About Us</Nav.Link>
-            <Nav.Link href="#contact-us">Contact Us</Nav.Link>
+            <Nav.Link className="navpos" href="#blog">Blog</Nav.Link>
+            <Nav.Link className="navpos" href="#about-us">About Us</Nav.Link>
+            <Nav.Link className="navpos" href="#contact-us">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-*/}
+          */}
         </Navbar>
         <div className="line l1"></div>
         <div className="line l2"></div>
@@ -93,18 +86,11 @@ function App() {
         <div className="flex-container">
           <div className="vl" id="vl1">
             <div style={{ color: "#F3EFE6" }} className="head">
-              <h1
-                style={{
-                  width: "100%",
-                  fontSize: "100px",
-                  fontWeight: "bold",
-                  lineHeight: "140%",
-                }}
-              >
+              <h1 className="new-standard-design" >
                 The new standard <br />
                 of <span className={text[counter]}>Design.</span>
               </h1>
-              <p style={{ fontFamily: "IBM Plex Mono", color: "#F3EFE6", fontSize: "18px" }}>
+              <p style={{ fontFamily: "IBM Plex Mono", color: "#F3EFE6", fontSize: "20px" }}>
                 Changing the future of design.
               </p>
             </div>
@@ -133,19 +119,7 @@ function App() {
         </div>
 
         <div className="who-are-we-container">
-          <h1
-            style={{
-              fontFamily: "'Anton', sans-serif",
-              color: "#F3EFE6",
-              width: "100%",
-              fontSize: "80px",
-              fontWeight: "bold",
-              lineHeight: "140%",
-              letterSpacing: "1px",
-              outline:"none",
-              display:"inline",
-            }}
-          >
+          <h1>
             <span style={{ color: "#c02d33",display: "inline" }}>Who</span> are we?
           </h1>
 
@@ -161,18 +135,10 @@ function App() {
         </div>
 
         <div
-          style={{ color: "#F3EFE6", width: "50vw", marginLeft: "5%" }}
+          style={{ color: "#F3EFE6", marginLeft: "5%" }}
           className="head4"
         >
-          <h1
-            style={{
-              width: "100%",
-              fontSize: "80px",
-              fontWeight: "bold",
-              lineHeight: "140%",
-              marginTop: "350px"
-            }}
-          >
+          <h1>
             The <span style={{ color: "#c02d33" }}>Team</span>
           </h1>
           <br />
