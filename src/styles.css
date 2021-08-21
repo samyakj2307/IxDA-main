@@ -11,7 +11,8 @@
 .img-name{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
+    margin-bottom: 10px;
 }
 
 .img-name img{
@@ -33,7 +34,7 @@
     font-size: 24px;
     font-family: 'Anton';
     max-width: 220px;
-    top: 40px;
+    
 }
 .designation{
     margin-top: 15px;
@@ -61,5 +62,35 @@
 @media only screen and (max-width:1000px){
     .member{
         margin: 20px;
+        padding: 20px;
+        position: relative;
+        height: fit-content;
+        width: 90%;
+    }
+    .img-name{
+        align-items:flex-start;
+    }
+    .img-name p{
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    .designation{
+        position: absolute;
+        font-size: 14px;
+        left: 109.3px;
+        top: 30px;
+    }
+    .skill{
+        position: absolute;
+        font-size: 10px;
+        left: 109.3px;
+        top: 66px;
+    }
+    .team{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .socialf{
+        padding-bottom: 8px;
     }
 }
