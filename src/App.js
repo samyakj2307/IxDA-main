@@ -38,7 +38,7 @@ function App() {
       change();
       setCall(false);
     }
-    const intervalID = setInterval(change, 2355);
+    const intervalID = setInterval(change, 2360);
     return () => clearInterval(intervalID);
   }, [change, useState]);
 
