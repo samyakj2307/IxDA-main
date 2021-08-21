@@ -7,8 +7,8 @@
         "designation": "Chairperson",
         "skill": "UX Designer | Graphic Enthusiast",
         "desc": "Nisheta is a motivated Product Designer. She loves cooking, sushi and her dog, Milo.",
-        "linkedin": "L1",
-        "instagram": "I1"
+        "linkedin": "https://in.linkedin.com/in/nisheta-gupta-57a7221a9/" ,
+        "instagram": "https://instagram.com/nisheta28?utm_medium=copy_link"
     },
     {
         "id": 2, 
@@ -27,8 +27,8 @@
         "designation": "Managing Director",
         "skill": "UX Designer | Photographer",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
-        "linkedin": "L3",
-        "instagram": "I3"
+        "linkedin": "https://in.linkedin.com/in/paramssharma",
+        "instagram": "https://instagram.com/paramssharma?utm_medium=copy_link"
     },
     {
         "id": 4, 
@@ -37,8 +37,8 @@
         "designation": "Motion Media Director",
         "skill": "Video Editor | UX Designer",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
-        "linkedin": "L4",
-        "instagram": "I4"
+        "linkedin": "https://in.linkedin.com/in/febinfranciskavalakatt",
+        "instagram": "https://instagram.com/febbinn?utm_medium=copy_link"
     },
     {
         "id": 5, 
@@ -47,8 +47,8 @@
         "designation": "Interaction Design Lead",
         "skill": "Motion Designer",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
-        "linkedin": "L4",
-        "instagram": "I4"
+        "linkedin": "https://in.linkedin.com/in/kaustubh-agrawal-b9ab4b1a2",
+        "instagram": "https://instagram.com/k_a_u_s_t_u_b_h_5_4_?utm_medium=copy_link"
     },
     {
         "id": 6, 
@@ -57,8 +57,8 @@
         "designation": "App Development Lead",
         "skill": "App Developer | Web Developer",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
-        "linkedin": "L4",
-        "instagram": "I4"
+        "linkedin": "https://www.linkedin.com/in/samyakj2307",
+        "instagram": "https://instagram.com/samyakj2307?utm_medium=copy_link"
     },
     {
         "id": 7, 
@@ -67,8 +67,8 @@
         "designation": "Web Development Lead",
         "skill": "Web Developer | Graphic Enthusiast",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
-        "linkedin": "L4",
-        "instagram": "I4"
+        "linkedin": "https://in.linkedin.com/in/ripunjaynarula",
+        "instagram": "https://instagram.com/ripunjayy?utm_medium=copy_link"
     },
     {
         "id": 8, 
@@ -77,8 +77,8 @@
         "designation": "Content Director",
         "skill": "xyz | xyz",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
-        "linkedin": "L4",
-        "instagram": "I4"
+        "linkedin": "https://in.linkedin.com/in/eshana-mohan-524838217",
+        "instagram": "https://instagram.com/eshanaaaaa?utm_medium=copy_link"
     },
     {
         "id": 9, 
@@ -87,7 +87,7 @@
         "designation": "Treasurer",
         "skill": "Web Developer |",
         "desc": "xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz xyz",
-        "linkedin": "L4",
-        "instagram": "I4"
+        "linkedin": "https://in.linkedin.com/in/grihit-budhiraja-148ba4217",
+        "instagram": "https://instagram.com/grihitbudhiraja?utm_medium=copy_link"
     }
 ]
